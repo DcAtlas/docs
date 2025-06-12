@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Aiva - The AI Interface That Generates UI and Acts for You",
   "colors": {
     "primary": "#F96465",
     "light": "#FF9B9B",
@@ -18,7 +18,7 @@
             "pages": [
               "index",
               "how-it-works",
-              "development"
+              "quickstart"
             ]
           },
           {
