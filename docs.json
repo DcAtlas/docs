@@ -47,7 +47,6 @@
           {
             "group": "Other",
             "pages": [
-              "other/community-and-links",
               "other/disclaimer",
               "other/faq",
               "other/privacy",
@@ -64,6 +63,16 @@
           "anchor": "Whitepaper",
           "href": "https://aivai.xyz/whitepaper",
           "icon": "book-open-cover"
+        },
+         {
+          "anchor": "X (Twitter)",
+          "href": "https://x.com/aivai_xyz",
+          "icon": "x-twitter"
+        },
+        {
+          "anchor": "Telegram",
+          "href": "https://t.me/aivai_xyz",
+          "icon": "telegram"
         }
       ]
     }
@@ -82,7 +91,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/aivai_xyz",
-      "telegram": "https://t.me/aivai_xyz"
+      "telegram": "https://t.me/aivai_xyz",
+      "website": "https://aivai.xyz"
     }
   }
 }
