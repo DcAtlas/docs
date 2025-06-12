@@ -31,6 +31,40 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+                    {
+            "group": "Use Cases",
+            "pages": [
+              "use-cases/first",
+              "use-cases/second"
+            ]
+          },
+          {
+            "group": "Investor",
+            "pages": [
+              "investor/competitive-edge",
+              "investor/protocol-revenue-model",
+              "investor/roadmap",
+              "investor/token"
+            ]
+          },
+          {
+            "group": "Developer",
+            "pages": [
+              "developer/benchmark-and-performance",
+              "developer/mcp-developer-program"
+            ]
+          },
+          {
+            "group": "Other",
+            "pages": [
+              "other/community-and-links",
+              "other/disclaimer",
+              "other/faq",
+              "other/privacy",
+              "other/team",
+              "other/terms"
+            ]
           }
         ]
       }
