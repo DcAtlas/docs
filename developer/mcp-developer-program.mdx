@@ -3,3 +3,34 @@ title: "MCP Developer Program"
 description: "Description of your new file."
 icon: "code"
 ---
+
+## Why Build a Path?
+
+*Publish once → earn forever.* 70 % of the call fee streams to your wallet in real‑time.
+
+## Dev Lifecycle
+
+1. **Register** a YAML/JSON manifest in the MCP registry.
+
+2. **Stake** AIVA tokens for SLA; slash on failure.
+
+3. **Earn** per invocation.
+
+4. **Govern** upgrades proportional to staked weight.
+
+## Sample Paths
+
+```
+// DEX price oracle  
+{"name":"dexPrice","in":\["tokenIn","tokenOut"\],"out":\["price"\]}
+```
+
+```
+// Live ETH gas  
+{"name":"gasNow","in":\[\],"out":\["gwei"\]}
+```
+
+```
+// NFT floor price  
+{"name":"nftFloor","in":\["slug"\],"out":\["floorETH","volume"\]}
+```
