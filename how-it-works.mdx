@@ -1,0 +1,28 @@
+---
+title: "How AIVA Works (5‑min read)"
+description: "[Read the full technical white‑paper ➜](https://aivai.xyz/whitepaper)"
+---
+
+## High‑Level Pipeline
+
+Please note that each CLI release is associated with a specific version of Mintlify. If your local website doesn't align with the production version, please update the CLI:
+
+````
+```mermaid
+flowchart LR
+    U[User Intent] --> NTO(Neural Task Orchestration)
+    NTO --> DRL(Deep RL Policy)
+    DRL --> AEF(Autonomous Execution Framework)
+    AEF --> UI[Live UI Render]
+    UI -->|Feedback| DRL
+```
+````
+
+- **NTO** parses intent and decomposes multi‑step workflows.
+- **DRL Policy** ranks interface layouts and execution paths.
+- **AEF** executes on Web2 APIs, smart‑contracts, or MCP paths.
+- **Renderer** streams HTML / WebGL back in \< 300 ms.
+
+## Model‑Context‑Protocol (MCP)
+
+_Think of MCP as an “open API market” that AIVA agents discover at runtime._ Developers publish **Paths** (deterministic functions) with on‑chain staking. AIVA selects, verifies, and composes these Paths on demand.
