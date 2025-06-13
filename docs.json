@@ -15,18 +15,11 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": [
-              "index",
-              "how-it-works",
-              "quickstart"
-            ]
+            "pages": ["index", "how-it-works", "quickstart"]
           },
           {
             "group": "Use Cases",
-            "pages": [
-              "use-cases/first",
-              "use-cases/second"
-            ]
+            "pages": ["use-cases/first", "use-cases/second"]
           },
           {
             "group": "Investor",
@@ -34,7 +27,8 @@
               "investor/competitive-edge",
               "investor/protocol-revenue-model",
               "investor/roadmap",
-              "investor/token"
+              "investor/token",
+              "investor/team"
             ]
           },
           {
@@ -50,7 +44,6 @@
               "other/disclaimer",
               "other/faq",
               "other/privacy",
-              "other/team",
               "other/terms"
             ]
           }
@@ -64,7 +57,7 @@
           "href": "https://aivai.xyz/whitepaper",
           "icon": "book-open-cover"
         },
-         {
+        {
           "anchor": "X (Twitter)",
           "href": "https://x.com/aivai_xyz",
           "icon": "x-twitter"
@@ -80,13 +73,6 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.aivai.xyz/"
-    }
   },
   "footer": {
     "socials": {
