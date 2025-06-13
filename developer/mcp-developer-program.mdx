@@ -27,16 +27,13 @@ icon: "code"
 
 ```mermaid
 flowchart LR
-    Caller[User / Dapp Caller] --> Fee[Pays Fee in AIVA]
-    Fee --> Split[Protocol Fee Split]
+  Caller[User or DApp Caller] --> Fee[Pays Fee in AIVA]
+  Fee --> Split[Fee Split]
 
-    Split --> Dev[Developer: 70%]
-    Split --> Treasury[Treasury: 20%]
-    Split --> Burn[Burn: 10% 🔥]
+  Split --> Dev[Developer (70%)]
+  Split --> Treasury[Treasury (20%)]
+  Split --> Burn[Burned (10%)]
 
-    style Burn fill=#ffcccc,stroke=#cc0000,stroke-width=2px
-    style Treasury fill=#e6f7ff,stroke=#3399cc
-    style Dev fill=#e6ffe6,stroke=#33cc33
 ```
 
 ## Path Anatomy

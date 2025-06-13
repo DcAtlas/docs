@@ -29,42 +29,17 @@ icon: "gauge-high"
 
 ```mermaid
 flowchart TD
-    A1[Token List] --> A2[Open Charting App]
-    A2 --> A3[Analyze Token]
-    A3 --> A4[Open Swap App]
-    A4 --> A5[Execute Swap]
-    A5 --> A6[Total: ~5 min]
+  subgraph Legacy Flow
+    A1[Token List] --> A2[Chart] --> A3[Swap] --> A4[~5 min]
+    B1[Yield Search] --> B2[Wallet Hopping] --> B3[Stake] --> B4[>4 min]
+    C1[Hotel Booking] --> C2[Flight Booking] --> C3[Manual Compare & Pay] --> C4[~15 min]
+  end
 
-    B1[User Prompt: Swap Token] --> B2[AIVA Prompt-Chain]
-    B2 --> B3[Chart + Analyze + Swap]
-    B3 --> B4[Total: ~12 sec]
-
-    A6 -.->|Legacy Flow| Compare1[~25× Speed-up] <-- B4
-
-    C1[Manual Yield Search]
-    C2[Wallet Hopping (3 protocols)]
-    C3[Stake Assets]
-    C1 --> C2 --> C3 --> C4[Total: >4 min]
-
-    D1[User Prompt: Stake]
-    D2[AIVA Execution]
-    D3[Auto Yield Search + Stake]
-    D1 --> D2 --> D3 --> D4[Total: 8 sec]
-
-    C4 -.->|Legacy Flow| Compare2[30× Speed-up] <-- D4
-
-    E1[Open Hotel Site]
-    E2[Open Flights Site]
-    E3[Compare Offers]
-    E4[Book Manually]
-    E1 --> E2 --> E3 --> E4 --> E5[Total: ~15 min]
-
-    F1[User Prompt: Book Trip]
-    F2[AIVA Meta-search]
-    F3[Auto Book Hotel + Flight]
-    F1 --> F2 --> F3 --> F4[Total: 30 sec]
-
-    E5 -.->|Legacy Flow| Compare3[30× Speed-up] <-- F4
+  subgraph AIVA Flow
+    A5[Prompt: Swap Token] --> A6[Prompt Chain] --> A7[Chart + Swap] --> A8[12 sec]
+    B5[Prompt: Stake] --> B6[Auto Protocol Search] --> B7[Stake] --> B8[8 sec]
+    C5[Prompt: Book Trip] --> C6[Meta-search] --> C7[Auto Book] --> C8[30 sec]
+  end
 ```
 
 ### Methodology Snapshot
