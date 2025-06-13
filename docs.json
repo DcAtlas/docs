@@ -71,9 +71,9 @@
   },
   "footer": {
     "socials": {
+      "website": "https://aivai.xyz",
       "x": "https://x.com/aivai_xyz",
-      "telegram": "https://t.me/aivai_xyz",
-      "website": "https://aivai.xyz"
+      "telegram": "https://t.me/aivai_xyz"
     }
   }
 }
