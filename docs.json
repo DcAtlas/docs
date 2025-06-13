@@ -26,6 +26,7 @@
             "pages": [
               "investor/competitive-edge",
               "investor/protocol-revenue-model",
+              "investor/benchmark-and-performance",
               "investor/roadmap",
               "investor/token",
               "investor/team"
@@ -34,7 +35,6 @@
           {
             "group": "Developer",
             "pages": [
-              "developer/benchmark-and-performance",
               "developer/mcp-developer-program"
             ]
           },
