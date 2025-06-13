@@ -13,13 +13,10 @@
       {
         "tab": "Documentation",
         "groups": [
+          { "group": "Overview", "pages": ["index", "how-it-works"] },
           {
             "group": "Getting Started",
-            "pages": ["index", "how-it-works", "quickstart"]
-          },
-          {
-            "group": "Use Cases",
-            "pages": ["use-cases/playbook"]
+            "pages": ["quickstart", "use-cases/playbook"]
           },
           {
             "group": "Investor",
@@ -34,17 +31,15 @@
           },
           {
             "group": "Developer",
-            "pages": [
-              "developer/mcp-developer-program"
-            ]
+            "pages": ["developer/mcp-developer-program"]
           },
           {
-            "group": "Other",
+            "group": "Legal & FAQ",
             "pages": [
-              "other/disclaimer",
-              "other/faq",
-              "other/privacy",
-              "other/terms"
+              "legal/disclaimer",
+              "legal/faq",
+              "legal/privacy",
+              "legal/terms"
             ]
           }
         ]
