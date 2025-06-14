@@ -29,13 +29,13 @@ icon: "gauge-high"
 
 ```mermaid
 flowchart TD
-  subgraph Legacy Flow
+  subgraph Legacy_Flow
     A1[Token List] --> A2[Chart] --> A3[Swap] --> A4[~5 min]
-    B1[Yield Search] --> B2[Wallet Hopping] --> B3[Stake] --> B4[>4 min]
+    B1[Yield Search] --> B2[Wallet Hopping] --> B3[Stake] --> B4["&gt;4 min"]
     C1[Hotel Booking] --> C2[Flight Booking] --> C3[Manual Compare & Pay] --> C4[~15 min]
   end
 
-  subgraph AIVA Flow
+  subgraph AIVA_Flow
     A5[Prompt: Swap Token] --> A6[Prompt Chain] --> A7[Chart + Swap] --> A8[12 sec]
     B5[Prompt: Stake] --> B6[Auto Protocol Search] --> B7[Stake] --> B8[8 sec]
     C5[Prompt: Book Trip] --> C6[Meta-search] --> C7[Auto Book] --> C8[30 sec]
