@@ -4,6 +4,19 @@ description: "Explains AIVA token utility, fee mechanics, governance, and tokeno
 icon: "rocket"
 ---
 
+## Token Details
+
+| **_Field_**                 | **_Value_**                                    |
+| :-------------------------- | :--------------------------------------------- |
+| **Name**                    | **AIVA**                                       |
+| **Ticker / Symbol**         | **\$AIVA**                                     |
+| **Standard**                | ERC-20                                         |
+| **Network**                 | Ethereum main-net                              |
+| **Total Supply (hard-cap)** | **1 000 000 000 AIVA**                         |
+| **Initial Market-Cap**      | ~ **\$300 000** at TGE                         |
+| **DEX Liquidity Lock**      | 6 months (renounced lock hash to be published) |
+| **Decimals**                | 18                                             |
+
 ## Utility & Flywheel — Fuel for Every Click
 
 > _AIVA isn’t just a unit of account; it is the fuel, meter, and incentive layer of the protocol._
@@ -34,16 +47,41 @@ The circulating supply _shrinks_ while utility, yield, and builder upside _expan
 
 | Category              | % Supply | Vesting Summary          |
 | :-------------------- | :------- | :----------------------- |
-| DEX Liquidity         | 52 %     | –                        |
+| DEX Liquidity         | 70 %     | –                        |
 | Execution Path Mining | 15 %     | Emission 4 yrs           |
-| Team & Advisors       | 18 %     | 1 yr cliff \+ 3 yrs line |
-| Private Investors     | 15 %     | 1 yr cliff \+ 2 yrs line |
-
-<Icon icon="rocket-launch" /> Type of launch – Fair launch
+| Team & Advisors       | 10 %     | 1 yr cliff \+ 3 yrs line |
+| Private Investors     | 5 %      | 1 yr cliff \+ 2 yrs line |
 
 <Icon icon="coin" /> Total Supply hard-capped at 1 000 000 000 \$AIVA.
 
-## Why This Design Endures
+## Launch & Liquidity Parameters
+
+**Anti-Sniper Guard (immutable)**
+
+| **_Time from TGE_** | **_Tax_**            | **_Max Buy/Wallet_**            |
+| :------------------ | :------------------- | :------------------------------ |
+| 0-1 min             | 40 %                 | 0.60 % supply                   |
+| 2-4 min             | 30 %                 | 0.60 % supply                   |
+| 5-10 min            | 20 %                 | 0.60 % supply                   |
+| 10-15 min           | 10 %                 | 0.60 % supply                   |
+| \>15 min            | 5 % flat (permanent) | Wallet limits lift after 60 min |
+
+**Tax allocation (100 %) → protocol multisig treasury**
+
+- Core dev & audits
+- MCP hackathon grants
+- Liquidity incentives & marketing
+
+**Why it works**
+
+- Fair entry window, no gas-war sniping
+- Standing 5 % fee funds runway and R&D
+- Rules locked and public—users know cost forever
+- Treasury spend governed by AIVA stakers
+
+**Result:** a launch that discourages bots, rewards real users, and secures a sustainable budget to push AIVA toward becoming Web3’s default interface layer.
+
+## Long-Term Sustainability
 
 - **Utility First, Everywhere.** Every click a user saves or path a dev exposes _requires_ \$AIVA—ensuring baseline demand regardless of market cycles.
 - **Builder Magnetism.** 70 % path royalties \+ upcoming hackathon grants create an onboarding funnel for third-party talent that compounds network effects.
